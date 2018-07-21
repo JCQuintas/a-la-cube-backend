@@ -1,11 +1,12 @@
-import INGREDIENTS from './ingredients'
+const INGREDIENTS = require('./ingredients')
 
-export default {
-  name: "Mulligan Stew",
-  description: "Whatever ingredients you like. Favourite food of some Pokémon on Tumblecube Island.",
+module.exports = {
+  name: 'Mulligan Stew',
+  description:
+    'Whatever ingredients you like. Favourite food of some Pokémon on Tumblecube Island.',
   recipes: [
     {
-      rarity: "Basic",
+      rarity: 'Basic',
       expensive: false,
       ingredients: [
         {
@@ -14,13 +15,13 @@ export default {
             INGREDIENTS.TINY_MUSHROOM,
             INGREDIENTS.BLUK_BERRY,
             INGREDIENTS.APRICORN,
-            INGREDIENTS.FOSSIL
-          ]
-        }
-      ]
+            INGREDIENTS.FOSSIL,
+          ],
+        },
+      ],
     },
     {
-      rarity: "Good",
+      rarity: 'Good',
       expensive: false,
       ingredients: [
         {
@@ -29,8 +30,8 @@ export default {
             INGREDIENTS.TINY_MUSHROOM,
             INGREDIENTS.BLUK_BERRY,
             INGREDIENTS.APRICORN,
-            INGREDIENTS.FOSSIL
-          ]
+            INGREDIENTS.FOSSIL,
+          ],
         },
         {
           amount: 1,
@@ -38,13 +39,13 @@ export default {
             INGREDIENTS.BIG_ROOT,
             INGREDIENTS.ICY_ROCK,
             INGREDIENTS.HONEY,
-            INGREDIENTS.BALM_MUSHROOM
-          ]
-        }
-      ]
+            INGREDIENTS.BALM_MUSHROOM,
+          ],
+        },
+      ],
     },
     {
-      rarity: "Good",
+      rarity: 'Good',
       expensive: true,
       ingredients: [
         {
@@ -53,8 +54,8 @@ export default {
             INGREDIENTS.TINY_MUSHROOM,
             INGREDIENTS.BLUK_BERRY,
             INGREDIENTS.APRICORN,
-            INGREDIENTS.FOSSIL
-          ]
+            INGREDIENTS.FOSSIL,
+          ],
         },
         {
           amount: 2,
@@ -62,13 +63,13 @@ export default {
             INGREDIENTS.BIG_ROOT,
             INGREDIENTS.ICY_ROCK,
             INGREDIENTS.HONEY,
-            INGREDIENTS.BALM_MUSHROOM
-          ]
-        }
-      ]
+            INGREDIENTS.BALM_MUSHROOM,
+          ],
+        },
+      ],
     },
     {
-      rarity: "Very Good",
+      rarity: 'Very Good',
       expensive: false,
       ingredients: [
         {
@@ -77,8 +78,8 @@ export default {
             INGREDIENTS.TINY_MUSHROOM,
             INGREDIENTS.BLUK_BERRY,
             INGREDIENTS.APRICORN,
-            INGREDIENTS.FOSSIL
-          ]
+            INGREDIENTS.FOSSIL,
+          ],
         },
         {
           amount: 3,
@@ -86,13 +87,13 @@ export default {
             INGREDIENTS.BIG_ROOT,
             INGREDIENTS.ICY_ROCK,
             INGREDIENTS.HONEY,
-            INGREDIENTS.BALM_MUSHROOM
-          ]
-        }
-      ]
+            INGREDIENTS.BALM_MUSHROOM,
+          ],
+        },
+      ],
     },
     {
-      rarity: "Very Good",
+      rarity: 'Very Good',
       expensive: true,
       ingredients: [
         {
@@ -101,8 +102,8 @@ export default {
             INGREDIENTS.TINY_MUSHROOM,
             INGREDIENTS.BLUK_BERRY,
             INGREDIENTS.APRICORN,
-            INGREDIENTS.FOSSIL
-          ]
+            INGREDIENTS.FOSSIL,
+          ],
         },
         {
           amount: 4,
@@ -110,13 +111,13 @@ export default {
             INGREDIENTS.BIG_ROOT,
             INGREDIENTS.ICY_ROCK,
             INGREDIENTS.HONEY,
-            INGREDIENTS.BALM_MUSHROOM
-          ]
-        }
-      ]
+            INGREDIENTS.BALM_MUSHROOM,
+          ],
+        },
+      ],
     },
     {
-      rarity: "Special",
+      rarity: 'Special',
       expensive: false,
       ingredients: [
         {
@@ -125,22 +126,20 @@ export default {
             INGREDIENTS.BIG_ROOT,
             INGREDIENTS.ICY_ROCK,
             INGREDIENTS.HONEY,
-            INGREDIENTS.BALM_MUSHROOM
-          ]
-        }
-      ]
+            INGREDIENTS.BALM_MUSHROOM,
+          ],
+        },
+      ],
     },
     {
-      rarity: "Special",
+      rarity: 'Special',
       expensive: true,
       ingredients: [
         {
           amount: 5,
-          name: [
-            INGREDIENTS.RAINBOW_MATTER
-          ]
-        }
-      ]
+          name: [INGREDIENTS.RAINBOW_MATTER],
+        },
+      ],
     },
-  ]
+  ],
 }

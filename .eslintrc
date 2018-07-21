@@ -1,0 +1,20 @@
+{
+  "extends": "eslint:recommended",
+  "globals": {
+    "module": true,
+    "require": true
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "rules": {
+    "no-console": "off",
+    "indent": [ "error", 2 ],
+    "semi": [ "error", "never" ],
+    "no-var": 2
+  }
+}

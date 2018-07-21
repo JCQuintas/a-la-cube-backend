@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   TINY_MUSHROOM: 'Tiny Mushroom',
   BLUK_BERRY: 'Bluk Berry',
   APRICORN: 'Apricorn',
@@ -8,5 +8,5 @@ export default {
   HONEY: 'Honey',
   BALM_MUSHROOM: 'Balm Mushroom ',
   RAINBOW_MATTER: 'Rainbow Matter',
-  MYSTIC_SHELL: 'Mystic Shell'
+  MYSTIC_SHELL: 'Mystic Shell',
 }
