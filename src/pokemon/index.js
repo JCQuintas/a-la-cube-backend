@@ -8,12 +8,12 @@ const replaceSpecials = string =>
     .replace('♀', '_FEMALE')
     .replace('♂', '_MALE')
 
-const POKENAMES = POKEMON.map(p => p.name).reduce((v, acc) => {
+const POKENAME = POKEMON.map(p => p.name).reduce((v, acc) => {
   acc[replaceSpecials(v).toUpperCase()] = v
   return acc
 }, {})
 
 module.exports = {
-  POKENAMES,
+  POKENAME,
   POKEMON,
 }
