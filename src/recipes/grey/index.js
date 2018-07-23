@@ -3,7 +3,7 @@ const attracted = require('./attracted')
 
 module.exports = {
   index: 5,
-  name: 'Gray Porridge',
+  name: 'Grey Porridge',
   description: 'A whole lot of grey. Favorite food of greyish Pokémon.',
   recipes,
   attracted,

@@ -2,7 +2,9 @@
   "extends": "eslint:recommended",
   "globals": {
     "module": true,
-    "require": true
+    "require": true,
+    "test": true,
+    "expect": true,
   },
   "env": {
     "node": true,

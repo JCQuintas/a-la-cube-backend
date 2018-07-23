@@ -55,7 +55,7 @@ module.exports = [
     ingredients: [
       RECIPE_HELPER(1, ['FO']),
       RECIPE_HELPER(1, ['AP']),
-      RECIPE_HELPER(1, ['IC']),
+      RECIPE_HELPER(2, ['IC']),
       RECIPE_HELPER(1, ['AP', 'FO']),
     ],
   },
