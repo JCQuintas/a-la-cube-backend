@@ -2,10 +2,10 @@ const recipes = require('./recipes')
 const attracted = require('./attracted')
 
 module.exports = {
-  index: 1,
-  name: 'Mulligan Stew',
+  index: 13,
+  name: 'Stone Soup',
   description:
-    'Whatever ingredients you like. Favourite food of some Pokémon on Tumblecube Island.',
+    'A whole lot of hard things and a few minerals. Favorite food of Rock-type Pokémon.',
   recipes,
   attracted,
 }

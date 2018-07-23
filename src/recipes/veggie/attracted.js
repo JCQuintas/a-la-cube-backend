@@ -1,0 +1,18 @@
+const { POKENAME } = require('pokemon')
+const { ATTRACTED_HELPER } = require('utils')
+
+module.exports = {
+  basic: [],
+  good: [
+    ATTRACTED_HELPER(POKENAME.EXEGGCUTE, 0.488),
+    ATTRACTED_HELPER(POKENAME.PARAS, 0.488),
+    ATTRACTED_HELPER(POKENAME.BULBASAUR, 0.02),
+  ],
+  very_good: [
+    ATTRACTED_HELPER(POKENAME.EXEGGCUTE, 0.333),
+    ATTRACTED_HELPER(POKENAME.PARAS, 0.333),
+    ATTRACTED_HELPER(POKENAME.BULBASAUR, 0.267),
+    ATTRACTED_HELPER(POKENAME.TANGELA, 0.067),
+  ],
+  special: [],
+}

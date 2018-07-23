@@ -2,9 +2,9 @@ const recipes = require('./recipes')
 const attracted = require('./attracted')
 
 module.exports = {
-  index: 2,
-  name: 'Red Stew',
-  description: 'A whole lot of red. Favorite food of reddish Pokémon.',
+  index: 5,
+  name: 'Gray Porridge',
+  description: 'A whole lot of grey. Favorite food of greyish Pokémon.',
   recipes,
   attracted,
 }

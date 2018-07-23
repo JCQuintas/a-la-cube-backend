@@ -6,7 +6,7 @@ module.exports = {
   BIG_ROOT: 'Big Root',
   ICY_ROCK: 'Icy Rock',
   HONEY: 'Honey',
-  BALM_MUSHROOM: 'Balm Mushroom ',
+  BALM_MUSHROOM: 'Balm Mushroom',
   RAINBOW_MATTER: 'Rainbow Matter',
   MYSTIC_SHELL: 'Mystic Shell',
 }
