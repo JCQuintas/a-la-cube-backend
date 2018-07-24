@@ -5,6 +5,7 @@
     "require": true,
     "test": true,
     "expect": true,
+    "describe": true,
   },
   "env": {
     "node": true,
