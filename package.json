@@ -7,9 +7,9 @@
   "license": "MIT",
   "scripts": {
     "precommit": "lint-staged",
-    "prettier": "prettier --single-quote --trailing-comma es5 --no-semi --write \"./**/*.js\"",
+    "prettier": "prettier --write \"./**/*.js\"",
     "start": "cross-env NODE_PATH=src/ nodemon src/index",
-    "test": "jest"
+    "test": "prettier -l \"./**/*.js\" && jest"
   },
   "lint-staged": {
     "./**/*.{js,jsx,json,css}": [
